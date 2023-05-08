@@ -14,3 +14,7 @@ func Max(x, y int) int {
 func Equal(x, y int) bool {
 	return cmp.Equal(x, y)
 }
+
+func Add(x, y int) int {
+	return x + y
+}
